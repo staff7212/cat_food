@@ -1,0 +1,17 @@
+
+@font-face {
+  font-family: 'Trebuchet MS';
+  src: url('./fonts/trebuchetms.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 400;
+}
+* {
+  font-family: 'Trebuchet MS';
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(./resources/bg.png);
+}

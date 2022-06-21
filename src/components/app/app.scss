@@ -1,0 +1,53 @@
+
+@font-face {
+  font-family: 'Exo2.0';
+  src: url('../../fonts/Exo2.0-Thin.otf') format('opentype');
+  font-style: normal;
+  font-weight: 400;
+}
+.app {
+  &__wrapper {
+    margin: 0 auto;
+    width: 1120px;
+  }
+  &__title {
+    font-family: 'Exo2.0';
+    font-size: 36px;
+    line-height: 42px;
+    color: #fff;
+    margin-top: 36px;
+    text-align: center;
+  }
+}
+////////////////////////////////
+@media (max-width: 1000px) {
+  .app {
+    &__wrapper {
+      max-width: 960px;
+    }
+  }
+}
+////////////////////////////////
+@media (max-width: 992px) {
+  .app {
+    &__wrapper {
+      max-width: 720px;
+    }
+  }
+}
+////////////////////////////////
+@media (max-width: 768px) {
+  .app {
+    &__wrapper {
+      max-width: 540px;
+    }
+  }
+}
+////////////////////////////////
+@media (max-width: 576px) {
+  .app {
+    &__wrapper {
+      max-width: 100%;
+    }
+  }
+}
